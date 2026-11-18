@@ -20,6 +20,9 @@ import java.util.List;
 import java.util.ServiceLoader;
 import java.util.concurrent.CompletableFuture;
 
+/**
+ * @author Antoine Bouhours <antoine.bouhours at rte-france.com>
+ */
 public interface ScpMinProvider extends Versionable, PlatformConfigNamedProvider {
 
     static List<ScpMinProvider> findAll() {

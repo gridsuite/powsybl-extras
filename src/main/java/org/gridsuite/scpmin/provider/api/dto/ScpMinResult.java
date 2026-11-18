@@ -12,6 +12,9 @@ import lombok.Getter;
 
 import java.util.List;
 
+/**
+ * @author Antoine Bouhours <antoine.bouhours at rte-france.com>
+ */
 @Getter
 @AllArgsConstructor
 public class ScpMinResult {

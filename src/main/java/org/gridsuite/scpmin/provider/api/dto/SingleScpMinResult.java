@@ -9,6 +9,9 @@ package org.gridsuite.scpmin.provider.api.dto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+/**
+ * @author Antoine Bouhours <antoine.bouhours at rte-france.com>
+ */
 @Getter
 @AllArgsConstructor
 public class SingleScpMinResult {
